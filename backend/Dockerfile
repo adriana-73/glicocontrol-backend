@@ -1,6 +1,6 @@
 # 1. Usa uma imagem oficial do Java para compilar e rodar
 # atualização do Dockerfile
-FROM eclipse-temurin:17-jdk-alpine AS build
+FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
 
 # Copia os ficheiros do Maven e do projeto
@@ -13,7 +13,7 @@ RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
 # 2. Prepara a imagem final mais leve para execução
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:21-jdk-alpine
 WORKDIR /app
 
 # Copia o jar gerado na etapa anterior
