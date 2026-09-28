@@ -1,4 +1,5 @@
 # 1. Usa uma imagem oficial do Java para compilar e rodar
+# atualização do Dockerfile
 FROM eclipse-temurin:17-jdk-alpine AS build
 WORKDIR /app
 
