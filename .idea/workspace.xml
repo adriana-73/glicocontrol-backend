@@ -19,8 +19,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/adriana-73/glicocontrol-backend.git",
+    "accountId": "cd2c3d50-1358-48e9-99b0-2b1720a276b7"
+  }
+}]]></component>
   <component name="HttpClientOnboardingState"><![CDATA[{
   "isOnboardingCommentShown": true
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,7 +56,9 @@
     "JUnit.GlucoseMeasurementTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "Spring Boot.BackendApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Adriana/Desktop/GlicoControl",
     "project.structure.last.edited": "Project",
