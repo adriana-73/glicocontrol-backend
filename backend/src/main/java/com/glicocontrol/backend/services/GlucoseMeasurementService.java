@@ -24,12 +24,12 @@ public class GlucoseMeasurementService {
 
     // Buscar histórico de um usuário específico ordenado do mais recente para o mais antigo
     public List<GlucoseMeasurement> obterHistoricoPorUsuario(Long userId) {
-        return repository.findByUserIdOrderByMeasurementDateTimeDesc(userId);
+        return repository.buscarPorUsuarioOrdenado(userId);
     }
 
     // Buscar histórico de um usuário filtrado por período (intervalo de datas)
     public List<GlucoseMeasurement> obterHistoricoPorPeriodo(Long userId, LocalDateTime inicio, LocalDateTime fim) {
-        return repository.findByUserIdAndMeasurementDateTimeBetweenOrderByMeasurementDateTimeDesc(userId, inicio, fim);
+        return repository.buscarPorPeriodoOrdenado(userId, inicio, fim);
     }
 
     // Calcular média glicêmica do usuário com base no histórico
