@@ -2,7 +2,7 @@ package com.glicocontrol.backend.services;
 
 import com.glicocontrol.backend.models.User;
 import com.glicocontrol.backend.repositories.UserRepository;
-import org.jspecify.annotations.NonNull;
+import jakarta.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public User registerUser(@NonNull User user) {
+    public User registerUser(User user) {
         if (userRepository.existsByEmail(user.getEmail())) {
             throw new RuntimeException("E-mail já cadastrado!");
         }
