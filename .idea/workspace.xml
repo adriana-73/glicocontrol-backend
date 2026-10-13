@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcfcf1e9-d95a-4afd-972c-06636298beca" name="Changes" comment="" />
+    <list default="true" id="bcfcf1e9-d95a-4afd-972c-06636298beca" name="Changes" comment="Atualiza chamadas para os novos metodos com Query no GlucoseMeasurementService&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/controllers/GlucoseMeasurementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/controllers/GlucoseMeasurementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/GlucoseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/GlucoseCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/GlucoseMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/GlucoseMeasurement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/repositories/GlucoseMeasurementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/glicocontrol/backend/repositories/GlucoseMeasurementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adriana-73"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/adriana-73/glicocontrol-backend.git",
@@ -42,6 +58,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -53,10 +72,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.backend/Dockerfile.executor": "Run",
     "JUnit.GlucoseMeasurementTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BackendApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -67,7 +88,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GlucoseMeasurementTest">
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration name="GlucoseMeasurementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
@@ -97,10 +118,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GlucoseMeasurementTest" />
         <item itemvalue="Spring Boot.BackendApplication" />
+        <item itemvalue="Docker.backend/Dockerfile" />
+        <item itemvalue="JUnit.GlucoseMeasurementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +153,162 @@
       <option name="presentableId" value="Default" />
       <updated>1790473114817</updated>
     </task>
+    <task id="LOCAL-00001" summary="Versão inicial do GlicoControl Backend">
+      <option name="closed" value="true" />
+      <created>1790559255802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790559255802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configurando Dockerfile">
+      <option name="closed" value="true" />
+      <created>1790562055388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790562055388</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Atualização do Dockerfile para deploy">
+      <option name="closed" value="true" />
+      <created>1790565117577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790565117577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Atualização do Dockerfile para usar java 21 na compilação">
+      <option name="closed" value="true" />
+      <created>1790565960462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790565960462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Atualização do application">
+      <option name="closed" value="true" />
+      <created>1790569026102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790569026102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(config):diciona configuracao de CORS">
+      <option name="closed" value="true" />
+      <created>1790721789663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790721789663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(api):adiciona endpoints de usuario e home">
+      <option name="closed" value="true" />
+      <created>1790722193915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790722193915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor(controllers):ajusta respostas das rotas home e usuario">
+      <option name="closed" value="true" />
+      <created>1790722296504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790722296504</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor(controllers):ajusta respostas das rotas home e usuario">
+      <option name="closed" value="true" />
+      <created>1790722396602</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790722396602</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor(cors):ajusta checagem den nulos">
+      <option name="closed" value="true" />
+      <created>1790722978743</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1790722978743</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;feat(dto): adiciona DTO para requisicoo de medicao de glicose">
+      <option name="closed" value="true" />
+      <created>1791769484130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1791769484133</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(service): adiciona metodos para gestao e consulta de medicoes de glicose&#10;&#10;- Adiciona método salvarMedicao para registar medições&#10;- Adiciona consultas de histórico por utilizador e por período de datas&#10;- Adiciona metodo para calcular a média glicemica do utilizador">
+      <option name="closed" value="true" />
+      <created>1791770092048</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1791770092048</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(service): implementa gestão e lógica de negócio para utilizadores&#10;&#10;- Adiciona métodos de criacao e atualizacao de utilizador&#10;- Adiciona consulta e validacao de dados de utilizador">
+      <option name="closed" value="true" />
+      <created>1791770215152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1791770215152</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;fix: corrige syntax no UserService e adiciona metodos no repository&quot;">
+      <option name="closed" value="true" />
+      <created>1791772912971</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1791772912990</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&quot;fix: adiciona getEmail na entidade user e corrige impotacoes">
+      <option name="closed" value="true" />
+      <created>1791775407417</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1791775407431</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Corrige sintaxe do orserBy no repository">
+      <option name="closed" value="true" />
+      <created>1791847922409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1791847922409</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Atualiza chamadas para os novos metodos com Query no GlucoseMeasurementService&quot;">
+      <option name="closed" value="true" />
+      <created>1791849465140</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1791849465145</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Versão inicial do GlicoControl Backend" />
+    <MESSAGE value="Configurando Dockerfile" />
+    <MESSAGE value="Atualização do Dockerfile para deploy" />
+    <MESSAGE value="Atualização do Dockerfile para usar java 21 na compilação" />
+    <MESSAGE value="Atualização do application" />
+    <MESSAGE value="feat(config):diciona configuracao de CORS" />
+    <MESSAGE value="feat(api):adiciona endpoints de usuario e home" />
+    <MESSAGE value="refactor(controllers):ajusta respostas das rotas home e usuario" />
+    <MESSAGE value="refactor(cors):ajusta checagem den nulos" />
+    <MESSAGE value="&quot;feat(dto): adiciona DTO para requisicoo de medicao de glicose" />
+    <MESSAGE value="feat(service): adiciona metodos para gestao e consulta de medicoes de glicose&#10;&#10;- Adiciona método salvarMedicao para registar medições&#10;- Adiciona consultas de histórico por utilizador e por período de datas&#10;- Adiciona metodo para calcular a média glicemica do utilizador" />
+    <MESSAGE value="feat(service): implementa gestão e lógica de negócio para utilizadores&#10;&#10;- Adiciona métodos de criacao e atualizacao de utilizador&#10;- Adiciona consulta e validacao de dados de utilizador" />
+    <MESSAGE value="&quot;fix: corrige syntax no UserService e adiciona metodos no repository&quot;" />
+    <MESSAGE value="&quot;fix: adiciona getEmail na entidade user e corrige impotacoes" />
+    <MESSAGE value="Corrige sintaxe do orserBy no repository" />
+    <MESSAGE value="Atualiza chamadas para os novos metodos com Query no GlucoseMeasurementService&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza chamadas para os novos metodos com Query no GlucoseMeasurementService&quot;" />
   </component>
 </project>

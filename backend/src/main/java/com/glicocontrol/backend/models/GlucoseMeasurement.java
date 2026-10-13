@@ -104,4 +104,3 @@ public class GlucoseMeasurement {
         this.user = user;
     }
 }
-
